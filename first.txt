@@ -7,3 +7,8 @@ sdasdadddd
 
 
 asdasdas
+123123123
+
+git diff  이전 커밋과의 차이점 보여줌
+
+
