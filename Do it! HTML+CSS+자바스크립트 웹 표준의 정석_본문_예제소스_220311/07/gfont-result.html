@@ -4,16 +4,29 @@
     <meta charset="UTF-8">
     <title>구글 폰트 사용하기</title>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
-      
-      h1 {
+      /* 항상 가장 위쪽에 위치할것 */
+    @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+     /*  작업전 기본표시 */
+     h1.before{
+        font-size:60px;
+        font-weight:bold;       
+      }
+
+            
+      h1.after{
         font-size:60px;
         font-weight:bold;       
         font-family:'Nanum Pen Script', cursive;
       }
+ 
     </style>
   </head>
   <body>
-    <h1>HTML+CSS+JavaScript</h1>
+    <h1><a href="https://fonts.google.com">구글 폰트사이트</a></h1>
+
+    <h1 class="before">HTML+CSS+JavaScript</h1>
+
+    <h1 class="after">HTML+CSS+JavaScript</h1>
   </body>
 </html>
